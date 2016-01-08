@@ -1,0 +1,91 @@
+body{
+	margin: auto;
+}
+.contenedor{
+	font-family: Arial;
+	font-size: 13px;
+}
+.fondo{
+	background: url("../img/grupal.jpg");
+	background-size: cover;
+	height: 700px;
+}
+.logo{
+	text-align: center;
+}
+.laboratoria{
+	width: 28%;
+	margin-top:7%;
+	position: absolute;
+	left: 35%;
+}
+.sumate{
+	position: absolute;
+	padding: 10px;
+	background: orange;
+	width: 8%;
+	text-align: center;
+	margin: 70px 180px 0px;
+}
+.menu {
+	float: right;
+	text-align: center;
+}
+.menu ul{
+	display: table;
+	list-style: none;
+	padding: 0px;
+	width: 250px;
+	margin: 40px 90px 0px 0px;
+}
+.menu li{
+	display: table-cell;
+}
+.menu a:hover, .menu a:focus, .menu a:active{
+	color:red;
+	background: grey;
+	-webkit-transition:0.4s linear all;
+	-moz-transition:0.4s linear all;
+	-o-transition:0.4s linear all;
+	transition: 0.4s linear all;
+	transform: rotatey(360deg);
+}
+.contenedor2{
+	text-align: center;
+	margin: 50px 100px 50px;
+}
+.minigrupal{
+	width: 30%;
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 0px;
+	padding: 0px;
+}
+.minigrupal-1{
+	width: 90%;
+	padding: 0px;
+}
+p{
+	text-align: left;
+	color: black;
+	font-family: Arial;
+	margin: 0px 10px 0px;
+	font-size: 13px;
+	width:90%; 
+}
+.linea{
+	width: 90%;
+	margin: 0px 10px;
+}
+.piedepagina{
+	background: black;
+	height: 50px;
+}
+.textofinal{
+	color:white;
+	text-align: left;
+	padding: 20px 0px 0px 140px;
+  width: 50%;
+}
+
+
